@@ -154,7 +154,7 @@ class SPAM:
             if 'Thành công success ' in response:
                 print(self.success_print("✓",f" {response}"))
             else:
-                print(self.error_print("X",f" "+response))
+                print(self.error_print(":)",f" "+response))
         except:
             print(self.error_print("X",f" BAD REQUESTS LIMIT!"))
     def send_code(self):
